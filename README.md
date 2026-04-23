@@ -4,9 +4,38 @@ A statically-exported Next.js site that teaches **how to build a scrollytelling 
 
 Every concept it describes — sticky slides, scroll-linked animation, content schemas, static deploys — is demonstrated live by the page you're reading.
 
-- **Live:** deployed to GitHub Pages on push to `main`
+- **Live site:** https://kaw393939.github.io/scrollytelling_spec_driven/
+- **Image library:** https://kaw393939.github.io/scrollytelling_spec_driven/images/
+- **Repo:** https://github.com/kaw393939/scrollytelling_spec_driven
 - **Stack:** Next.js 16 App Router (static export) · React 19 · TypeScript · framer-motion · Markdown + Zod · CSS Modules
 - **Docs:** [`docs/specs/`](docs/specs/) (what to build) · [`docs/phases/`](docs/phases/) (how to build it)
+
+---
+
+## For students — use this repo for your assignment
+
+You're welcome to **copy this project and use it as the starting point for your own scrollytelling assignment**.
+
+### How to set it up
+
+1. **Fork** this repo on GitHub (or click **Use this template** if the owner has enabled it), or clone it and push to a new repo of your own.
+2. In your fork, go to **Settings → Pages → Build and deployment → Source** and pick **GitHub Actions**.
+3. Push a commit to `main`. The included workflow ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) will build and deploy to `https://<your-username>.github.io/<your-repo>/`.
+4. Work through the phases in [docs/phases/](docs/phases/) — or write your own content on top of the scaffold.
+5. Add your own images to `public/images/`; they will appear automatically on the `/images/` page of your site.
+
+### How to submit
+
+Edit the README in **your** fork and add your deployed site's URL at the top, for example:
+
+```markdown
+## My submission
+
+- Live site: https://<your-username>.github.io/<your-repo>/
+- Author: <your name>
+```
+
+Then share the link to your repo (and the live site) with your instructor. That's the submission.
 
 ---
 
