@@ -1,21 +1,9 @@
 ---
-title: "Scrolly"
+title: "The iPhone Evolution Museum"
 layout: "standard"
-summary: "A teaching site about scrollytelling on the web, built with a spec-driven workflow."
+summary: "A minimalist museum-style scrollytelling page tracing every major iPhone model from 2007 to 2025."
 ---
 
-Scrolly is a small, file-based teaching site.
+Walk through a curated museum exhibit of the iPhone’s evolution. Each major model arrives with visionary innovation, social proof, and clean motion-driven storytelling.
 
-It shows how to build long-form scrollytelling pages with Markdown content, static export, and a layout system that keeps the authoring surface small.
-
-## What to read first
-
-- [Getting Started](/getting-started)
-- [Sticky Slides](/sticky-slides)
-
-## What this site demonstrates
-
-- Markdown content as the source of truth
-- A standard layout for reading pages
-- A presentation layout for slide-style stories
-- Build-time validation and static deployment
+> Over 3 billion iPhones sold worldwide.
