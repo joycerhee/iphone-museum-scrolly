@@ -36,7 +36,7 @@ jobs:
 
       - name: Build with Next.js
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_BASE_PATH: /iphone-museum-scrolly
         run: npx next build
 
       - name: Add .nojekyll
