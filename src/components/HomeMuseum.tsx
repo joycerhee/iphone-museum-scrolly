@@ -261,7 +261,7 @@ export function HomeMuseum() {
                 >
                   <div className={`grid grid-cols-1 items-center gap-8 md:grid-cols-2 ${isEven ? "md:grid-flow-col-dense" : ""}`}>
                     <motion.img
-                      src={`/images/iphones/${era.image}`}
+                      src={`/iphone-museum-scrolly/images/iphones/${era.image}`}
                       alt={`iPhone ${era.title}`}
                       className={`rounded-2xl max-h-[280px] object-contain ${isEven ? "md:order-2" : ""}`}
                       style={{ y: shouldReduceMotion ? 0 : imageParallax }}
